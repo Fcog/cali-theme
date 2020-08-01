@@ -15,7 +15,7 @@ Clone the repo in the themes folder.
 
 then execute:
 
-    cd frontend && yarn
+    composer install && cd frontend && yarn
 
 ## Dev
     cd frontend && yarn dev
