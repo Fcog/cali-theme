@@ -13,6 +13,10 @@ It features the following tech:
 ## Installation
 Clone the repo in the themes folder.
 
+then execute:
+
+    cd frontend && yarn
+
 ## Dev
     cd frontend && yarn dev
     
