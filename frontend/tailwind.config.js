@@ -1,4 +1,8 @@
 module.exports = {
+  purge: [
+    './components/**/*.hbs',
+    './components/**/**/*.hbs',
+  ],
   theme: {
     extend: {
       container: {
