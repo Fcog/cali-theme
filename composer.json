@@ -1,0 +1,21 @@
+{
+	"name": "fcog/cali-theme",
+	"description": "Cali Theme is a bares bones WordPress theme integrated with TailwindCSS and Mustache templating engine.",
+	"version": "1.0.0",
+    "type": "wordpress-theme",
+	"keywords": ["wordpress","mustache","handlebars","template-engine"],
+	"homepage": "https://github.com/fcog/cali-theme",
+    "license": "GPLv2.0+",
+    "authors": [
+      {
+        "name": "Francisco Giraldo",
+        "email": "fcog111@gmail.com",
+        "homepage": "https://franciscogiraldo.com/",
+        "role": "Developer"
+      }
+    ],
+	"require": {
+		"php": ">=7.2",
+		"salesforce/handlebars-php": "^2.3"
+	}
+}
