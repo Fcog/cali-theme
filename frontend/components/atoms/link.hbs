@@ -1,5 +1,6 @@
 <a
-	class="block red-link"
+	class="block {{#if active }}text-red-500{{else}}red-link{{/if}}"
+	{{#if active }}aria-current="{{ active }}"{{/if}}
 	href="{{ url }}">
 
 	{{ title }}

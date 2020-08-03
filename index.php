@@ -18,7 +18,7 @@ if ( have_posts() ) {
 echo $handlebars->render(
 	'templates/archive',
 	[
-		'title' => get_bloginfo( 'name' ),
+		'title' => 'Posts',
 		'posts' => $the_posts,
 	]
 );

@@ -8,10 +8,8 @@ require_once 'vendor/autoload.php';
 use Handlebars\Handlebars;
 use Handlebars\Loader\FilesystemLoader;
 
-$partialsDir = __DIR__ . '/frontend/components';
-
-$partialsLoader = new FilesystemLoader(
-	$partialsDir,
+$partials_loader = new FilesystemLoader(
+	__DIR__ . '/frontend/components',
 	[
 		'extension' => 'hbs',
 	]
@@ -19,8 +17,8 @@ $partialsLoader = new FilesystemLoader(
 
 $handlebars = new Handlebars(
 	[
-		'loader'          => $partialsLoader,
-		'partials_loader' => $partialsLoader,
+		'loader'          => $partials_loader,
+		'partials_loader' => $partials_loader,
 	]
 );
 
