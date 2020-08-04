@@ -3,23 +3,14 @@
 require_once 'vendor/autoload.php';
 
 /**
- * Config handlebars.
+ * Config Handlebars.
  */
-use Handlebars\Handlebars;
-use Handlebars\Loader\FilesystemLoader;
+use FractalHandlebars\Renderer;
 
-$partials_loader = new FilesystemLoader(
-	__DIR__ . '/frontend/components',
-	[
-		'extension' => 'hbs',
-	]
-);
-
-$handlebars = new Handlebars(
-	[
-		'loader'          => $partials_loader,
-		'partials_loader' => $partials_loader,
-	]
+$view_engine = new Renderer(
+	get_template_directory() . '/frontend/src/components',
+	get_template_directory_uri() . '/frontend/assets',
+	get_template_directory_uri() . '/frontend/src/components-map.json'
 );
 
 /**

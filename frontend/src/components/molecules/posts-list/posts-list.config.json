@@ -1,0 +1,18 @@
+{
+  "context": {
+    "posts": [
+      {
+        "title": "Post title 1",
+        "url": "https://franciscogiraldo.com"
+      },
+      {
+        "title": "Post title 2",
+        "url": "https://franciscogiraldo.com"
+      },
+      {
+        "title": "Post title 3",
+        "url": "https://franciscogiraldo.com"
+      }
+    ]
+  }
+}

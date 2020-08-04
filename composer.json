@@ -16,6 +16,6 @@
     ],
 	"require": {
 		"php": ">=7.2",
-		"salesforce/handlebars-php": "^2.3"
+		"fcog/fractal-handlebars-php": "^1.0"
 	}
 }

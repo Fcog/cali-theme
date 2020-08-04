@@ -15,8 +15,8 @@ if ( have_posts() ) {
 	}
 }
 
-echo $handlebars->render(
-	'templates/archive',
+$view_engine->render(
+	'@archive',
 	[
 		'title' => 'Posts',
 		'posts' => $the_posts,

@@ -2,8 +2,8 @@
 
 get_header();
 
-echo $handlebars->render(
-	'templates/404',
+$view_engine->render(
+	'@404',
 	[
 		'title' => 'Page not found.',
 	]

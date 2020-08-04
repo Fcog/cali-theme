@@ -12,7 +12,7 @@
 
 <?php
 
-global $handlebars;
+global $view_engine;
 
 $current_post = $wp_query->get_queried_object();
 
@@ -35,11 +35,11 @@ $menu_items = array_map(
 	$menu_items
 );
 
-echo $handlebars->render(
-	'organisms/header',
+$view_engine->render(
+	'@header',
 	[
-		'website_title' => get_bloginfo( 'name' ),
-		'website_url'   => home_url(),
-		'menu_items'    => $menu_items,
+		'title'      => get_bloginfo( 'name' ),
+		'url'        => home_url(),
+		'menu_items' => $menu_items,
 	]
 );

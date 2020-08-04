@@ -1,0 +1,21 @@
+{
+  "context": {
+    "menu_items": [
+      {
+        "title": "Menu item 1",
+        "url": "https://franciscogiraldo.com",
+        "active": false
+      },
+      {
+        "title": "Menu item 2",
+        "url": "https://franciscogiraldo.com",
+        "active": true
+      },
+      {
+        "title": "Menu item 3",
+        "url": "https://franciscogiraldo.com",
+        "active": false
+      }
+    ]
+  }
+}

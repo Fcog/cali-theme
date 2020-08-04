@@ -1,0 +1,11 @@
+{
+  "@link": "atoms/link/link.hbs",
+  "@title": "atoms/title/title.hbs",
+  "@nav": "molecules/nav/nav.hbs",
+  "@posts-list": "molecules/posts-list/posts-list.hbs",
+  "@header": "organisms/header/header.hbs",
+  "@preview": "_preview.hbs",
+  "@404": "templates/404/404.hbs",
+  "@archive": "templates/archive/archive.hbs",
+  "@single": "templates/single/single.hbs"
+}
