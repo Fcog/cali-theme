@@ -1,8 +1,8 @@
 # Cali Wordpress theme
 
-Cali is a bare bones WordPress theme created by a Developer for Developers. 
+Cali is a starter theme for WordPress. 
 
-The theme focuses on UI component development using the [Atomic design methodology](https://atomicdesign.bradfrost.com/chapter-2/).
+It focuses on UI component development using the [Atomic design methodology](https://atomicdesign.bradfrost.com/chapter-2/).
 
 Tech used:
 - [Handlebars view engine](https://handlebarsjs.com/)
