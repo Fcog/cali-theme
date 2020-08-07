@@ -8,7 +8,7 @@ require_once 'vendor/autoload.php';
 use FractalHandlebars\Renderer;
 
 $view_engine = new Renderer(
-	get_template_directory() . '/frontend/src/components',
+	get_template_directory_uri() . '/frontend/src/components',
 	get_template_directory_uri() . '/frontend/assets',
 	get_template_directory_uri() . '/frontend/src/components-map.json'
 );
