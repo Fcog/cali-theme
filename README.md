@@ -5,7 +5,7 @@ Cali is a starter theme for WordPress.
 It focuses on UI component development using the [Atomic design methodology](https://atomicdesign.bradfrost.com/chapter-2/).
 
 Tech used:
-- [Handlebars](https://handlebarsjs.com/) - Components 
+- [Handlebars](https://handlebarsjs.com/) 
 - [TailwindCSS](https://tailwindcss.com/)
 - [Rollup](https://rollupjs.org/guide/en/) 
 - [PostCSS](https://postcss.org/) 
