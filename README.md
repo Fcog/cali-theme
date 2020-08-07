@@ -26,11 +26,6 @@ This will watch for changes in any file and rebuild the assets.
 
 It also starts a server for the Styleguide with BrowserSync.    
     
-## Linting
-    cd frontend && yarn lint
-    
-Checks your JS and CSS.    
-    
 ## Build
     cd frontend && yarn build    
 
