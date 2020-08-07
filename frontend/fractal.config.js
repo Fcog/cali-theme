@@ -12,7 +12,7 @@ fractal.set('project.title', 'Styleguide');
 fractal.components.set('path', __dirname + componentFolder);
 
 /* Tell Fractal where the documentation pages will live */
-fractal.docs.set('path', __dirname + '/src/docs');
+fractal.docs.set('path', __dirname + '/src/styleguide-docs');
 
 /* Specify a directory of static assets */
 fractal.web.set('static.path', __dirname + '/src/assets');
